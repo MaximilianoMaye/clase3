@@ -1,0 +1,135 @@
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+
+nav{
+	background: yellow;
+	padding: 10px 0;
+	overflow: auto;
+}
+.contenedor{
+	max-width: 900px;
+	margin: auto;
+}
+nav .logo{
+	max-width: 100px
+
+}
+
+nav ul.menu{
+	float: right;
+	margin-top: 10px
+}
+
+nav ul.menu li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+header{
+	background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100;Pink+Gloss */
+    background: #cb60b3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* IE6-9 */
+
+	padding: 80px
+
+}
+
+header h1,header h2{
+	color: white;
+	font-family:'Montserrat';
+	font-size: 50px;
+
+}
+header h2{
+	font-size: 20px
+}
+
+.productos{
+	padding: 80px 0;
+}
+
+.productos h2{
+	font-family:'Montserrat';
+	font-size: 40px;
+	font-weight: 700px;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.productos article h3{
+	width:  30%;
+	display: inline-block;
+	margin: 10px;
+}
+
+.productos article img{
+	width: 100%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+	nav{
+		background: cyan;
+	}
+} 
+
+
+
+
+@media screen and (max-width: 800px)and (min-width: 701px) {
+	nav{
+		background: cyan;
+	}
+header h2 {
+	display: none;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+	header h1, header h2{
+		text-align: center;
+		}
+	 nav .logo{
+	 	float: none;
+	 	display: block;
+	 	margin: auto;
+	 }
+	 nav ul.menu{
+	 	float: none;
+	 	text-align: center;
+	 }
+	 nav ul.menu li{
+	 	display: block;
+	 }
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+	header h1,header h2{
+		text-align: center;
+	}
+}
+	
+@media screen and (max-width: 700px){
+	.productos article{
+		width: 100%;
+		display: block;
+		max-width: 300px;
+		margin: 70px;
+	}
